@@ -26,14 +26,15 @@
     "lodash": "~2.4.1",
     "moment": "~2.4.0",
     "pegjs": "~0.7.0",
-    "passport.socketio": "~2.2.0"
+    "passport.socketio": "~2.2.0",
+    "snyk": "^1.662.0"
   },
   "devDependencies": {
     "cube": "git://github.com/Marsup/cube.git#full-merge",
-    "request": "~2.29.0",
-    "mocha": "~1.15.1",
+    "request": "~2.81.0",
+    "mocha": "~6.0.0",
     "sandboxed-module": "~0.3.0",
-    "jshint": "~2.3.0",
+    "jshint": "~2.9.3",
     "should": "~2.1.1",
     "connect-fileupload-cleaner": "0.0.1",
     "portfinder": "~0.2.1"
@@ -45,6 +46,9 @@
     "test": "NODE_ENV=test mocha --reporter spec",
     "start": "../../node_modules/.bin/pm2 start beekeeper-admin-pm2.json",
     "stop": "../../node_modules/.bin/pm2 stop beekeeper-admin",
-    "lint": "jshint --config .jshintrc bin init lib"
-  }
+    "lint": "jshint --config .jshintrc bin init lib",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
