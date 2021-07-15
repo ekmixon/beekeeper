@@ -22,7 +22,7 @@
     "dust": "~0.3",
     "jison": "~0.3",
     "mocha": "*",
-    "mustache": "~0.7.2"
+    "mustache": "~2.2.1"
   },
   "main": "lib/handlebars.js",
   "bin": {
