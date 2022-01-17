@@ -5,6 +5,6 @@
     "clean": "./clean.sh"
   },
   "dependencies": {
-    "marked": "~0.2.8"
+    "marked": "~4.0.10"
   }
 }
