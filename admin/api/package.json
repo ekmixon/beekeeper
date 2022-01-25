@@ -33,7 +33,7 @@
     "request": "~2.29.0",
     "mocha": "~1.15.1",
     "sandboxed-module": "~0.3.0",
-    "jshint": "~2.3.0",
+    "jshint": "~2.13.4",
     "should": "~2.1.1",
     "connect-fileupload-cleaner": "0.0.1",
     "portfinder": "~0.2.1"
