@@ -24,7 +24,7 @@
     "commander": "~2.1.0",
     "fstream": "~0.1.24",
     "lodash": "~2.4.1",
-    "moment": "~2.4.0",
+    "moment": "~2.29.2",
     "pegjs": "~0.7.0",
     "passport.socketio": "~2.2.0"
   },
