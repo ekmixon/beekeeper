@@ -6,7 +6,8 @@
   "private": true,
   "dependencies": {
     "cube": "git://github.com/Marsup/cube.git#full-merge",
-    "cfg": "0.0.2"
+    "cfg": "0.0.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "mocha": "~1.15.1",
@@ -15,9 +16,12 @@
   "scripts": {
     "start": "../node_modules/.bin/pm2 start collector-pm2.json",
     "stop": "../node_modules/.bin/pm2 stop collector",
-    "test": "NODE_ENV=test node_modules/mocha/bin/mocha --reporter spec"
+    "test": "NODE_ENV=test node_modules/mocha/bin/mocha --reporter spec",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "~0.10.23"
-  }
+  },
+  "snyk": true
 }
