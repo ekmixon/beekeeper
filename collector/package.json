@@ -9,7 +9,7 @@
     "cfg": "0.0.2"
   },
   "devDependencies": {
-    "mocha": "~1.15.1",
+    "mocha": "~10.1.0",
     "should": "~2.1.1"
   },
   "scripts": {
