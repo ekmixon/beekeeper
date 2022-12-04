@@ -8,7 +8,7 @@
   "main": "lib/index",
   "dependencies": {
     "cfg": "0.0.2",
-    "express": "~3.4.7",
+    "express": "~4.0.0",
     "express-namespace": "~0.1.1",
     "passport": "~0.1.17",
     "passport-local": "~0.1.6",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "cube": "git://github.com/Marsup/cube.git#full-merge",
-    "request": "~2.29.0",
+    "request": "~2.73.0",
     "mocha": "~1.15.1",
     "sandboxed-module": "~0.3.0",
     "jshint": "~2.3.0",
