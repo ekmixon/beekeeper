@@ -1,5 +1,5 @@
 source "http://rubygems.org"
 
-gem "rake"
+gem "rake", ">= 12.3.3"
 gem "therubyracer", ">= 0.9.8", "< 0.11"
 gem "rspec"
