@@ -26,11 +26,11 @@
     "lodash": "~2.4.1",
     "moment": "~2.4.0",
     "pegjs": "~0.7.0",
-    "passport.socketio": "~2.2.0"
+    "passport.socketio": "~3.7.0"
   },
   "devDependencies": {
     "cube": "git://github.com/Marsup/cube.git#full-merge",
-    "request": "~2.29.0",
+    "request": "~2.88.2",
     "mocha": "~1.15.1",
     "sandboxed-module": "~0.3.0",
     "jshint": "~2.3.0",
