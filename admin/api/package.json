@@ -26,7 +26,8 @@
     "lodash": "~2.4.1",
     "moment": "~2.4.0",
     "pegjs": "~0.7.0",
-    "passport.socketio": "~2.2.0"
+    "passport.socketio": "~2.2.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "cube": "git://github.com/Marsup/cube.git#full-merge",
@@ -45,6 +46,9 @@
     "test": "NODE_ENV=test mocha --reporter spec",
     "start": "../../node_modules/.bin/pm2 start beekeeper-admin-pm2.json",
     "stop": "../../node_modules/.bin/pm2 stop beekeeper-admin",
-    "lint": "jshint --config .jshintrc bin init lib"
-  }
+    "lint": "jshint --config .jshintrc bin init lib",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
