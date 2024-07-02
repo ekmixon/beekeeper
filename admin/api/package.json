@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "cube": "git://github.com/Marsup/cube.git#full-merge",
-    "request": "~2.29.0",
+    "request": "~2.88.2",
     "mocha": "~1.15.1",
     "sandboxed-module": "~0.3.0",
     "jshint": "~2.3.0",
