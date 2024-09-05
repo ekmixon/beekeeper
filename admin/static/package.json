@@ -9,7 +9,7 @@
     "express": "~3.4.7",
     "http-proxy": "~0.10.3",
     "requirejs": "~2.1.9",
-    "less-middleware": "~0.1.12",
+    "less-middleware": "~2.2.0",
     "memory-cache": "0.0.5"
   },
   "devDependencies": {
